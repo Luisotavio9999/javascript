@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>002</title>
+</head>
+<style>
+    body {
+        background-image: url(../img/1768e291636b4624409bed7b5428c9741660829037_main.png);
+        border: 8px solid black;
+        box-shadow: 3px 6px 6px rgb(205, 0, 246);
+        width: 1000px;
+        margin: 250px;
+        border-radius: 70px;
+        margin-top: 16%;
+        padding: 10px;
+        text-align: center;
+        color: rgb(128, 4, 216);
+        font-size: 20px;
+    }
+
+    button {
+        background: linear-gradient(-50deg, rgba(128, 128, 128, 0.488), rgba(0, 0, 255, 0.471));
+        border-radius: 100px;
+        font-size: 20px;
+        padding: 15px;
+        transition: 300ms;
+    }
+
+    button:hover {
+        background: linear-gradient(-50deg, rgba(128, 128, 128, 0.488), rgba(0, 0, 255, 0.471));
+        border-radius: 100px;
+        font-size: 30px;
+        padding: 25px;
+        transition: 300ms;
+    }
+</style>
+
+<body>
+    <h1> Trabalhando com dados </h1>
+
+    <br>
+    <button onclick="botaonome()">quero saber seu nome</button>
+
+    <script>
+        function botaonome() {
+            var nome2 = prompt('qual o seu nome?')
+            confirm(`olá ${nome2}, bem vindo!`)
+        }
+    </script>
+
+</body>
+
+</html>

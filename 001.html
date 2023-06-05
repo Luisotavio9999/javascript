@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>001</title>
+    <style>
+        body{
+            text-align: center;
+            font-size: 20px;
+        }
+        button{
+            margin-right: 15px;
+            margin-left: 15px;
+            font-size: 24px;
+            padding: 15px; 
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Desafio das mensagens </h1>
+
+    <button  onclick="botaoteste1()">vermelho</button>
+    <button onclick="botaoteste2()">azul</button>
+    <button  onclick="botaoteste3()">roxo</button>
+
+    <script>
+        alert("olá mundo!!!")
+        console.log("olá mundo!!! utilizando console!")
+        
+        function botaoteste1(){
+            document.body.style.backgroundColor = "red"    
+        }
+        function botaoteste2(){
+            document.body.style.backgroundColor = "blue"    
+        }
+        function botaoteste3(){
+            document.body.style.backgroundColor = "purple" 
+        }
+        //string conjunto de caracteries que acompanha " " ou ' '
+        var nome = "Luis"
+        var sobrenome = "otavio"
+        //number não tem " " e todo numero é da classe number
+        var idade = 35
+        // boolean - somente recebe true ou false
+        var aprovado = true 
+
+        console.log (typeof nome) // comando typeof para saber o tipo do dado
+
+   </script>
+
+</body>
+</html>
